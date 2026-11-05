@@ -1,0 +1,8 @@
+{
+  // 将css文件关联为tailwind语言
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // 忽略css未知规则警告
+  "css.lint.unknownAtRules": "ignore"
+}

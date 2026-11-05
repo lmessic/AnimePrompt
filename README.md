@@ -8,7 +8,9 @@
 AnimePrompt 是一个**纯前端AI绘画提示词生成Web应用**，专为二次元/动漫风格绘图打造。
 用户通过可视化表单选择画风、角色特征、构图、光影、画质参数，自动拼接标准化正向提示词与负面提示词；支持历史记录、自定义模板收藏，一键复制Prompt到Midjourney / Stable Diffusion等AI绘图工具。
 
-> 所有数据保存在浏览器 `localStorage`，**无后端、不上传用户数据**，轻量安全。
+> 项目整体设计为Next.js15 App Router全栈方案，预留后端数据库与OAuth登录能力。
+> ✅ 当前版本：前端MVP，使用LocalStorage保存历史记录和模板，完整交互可用。
+> ⏳ 后续迭代：接入Server Actions、Prisma、Auth.js，实现Github登录+云端数据库存储，支持跨设备同步。
 
 ## 🛠️ 技术栈
 
